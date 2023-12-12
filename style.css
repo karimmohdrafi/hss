@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(./hotel\ back.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(3px);
+}
+.glass{
+    width: 930px;
+    height: 520px;
+    box-shadow: 0 0 8px lightgreen;
+    background-image: url(./hotel\ front.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+nav{
+    display: flex;
+    padding: 30px 8%; 
+}
+.logo{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+}
+img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 7px;
+
+
+}img:hover{
+    border: 2px solid white;
+}
+h3{
+    color: white;
+    margin: 80px 110px -25px;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h1{
+    color: white;
+    margin: 0 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    letter-spacing: 2px;
+    opacity: 0.6;
+    font-style: italic;
+
+    
+}
+.icons{
+    color: white;
+}
+
+.content{
+    width: 200;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    color: white;
+}
+button{
+    border-radius: 7px;
+    padding: 5px;
+}
+.content{
+    height: 80px;
+    width: 130px;
+    border:  solid black;
+    background-color: black;
+    display: inline-block;
+
+}
+.item{
+    height: 90px;
+    width: 130px;
+    border:  solid red;
+    background-color: black;
+    display: inline-block;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 10px;
+    color: white;
+    box-sizing: border-box;
+    display: inline-block;
+}
